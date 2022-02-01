@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/topRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_8sdp"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa_bold"
+            android:paddingVertical="@dimen/_5sdp"
+            android:text="Filter By Category"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_13sdp" />
+
+        <ImageView
+            android:id="@+id/cancelIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_clear"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginHorizontal="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@color/light_grey" />
+
+    <TextView
+        android:id="@+id/businessTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:paddingHorizontal="@dimen/_8sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="Business"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        app:drawableStartCompat="@drawable/ic_business" />
+
+    <TextView
+        android:id="@+id/entertainmentTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:paddingHorizontal="@dimen/_8sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="Entertainment"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        app:drawableStartCompat="@drawable/ic_entertainment" />
+
+    <TextView
+        android:id="@+id/generalTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:paddingHorizontal="@dimen/_8sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="General"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        app:drawableStartCompat="@drawable/ic_general" />
+
+    <TextView
+        android:id="@+id/healthTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:paddingHorizontal="@dimen/_8sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="Health"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        app:drawableStartCompat="@drawable/ic_health" />
+
+    <TextView
+        android:id="@+id/scienceTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:paddingHorizontal="@dimen/_8sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="Science"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        app:drawableStartCompat="@drawable/ic_science" />
+
+    <TextView
+        android:id="@+id/sportsTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:paddingHorizontal="@dimen/_8sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="Sports"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        app:drawableStartCompat="@drawable/ic_sports" />
+
+    <TextView
+        android:id="@+id/technologyTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:paddingHorizontal="@dimen/_8sdp"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="Technology"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_12sdp"
+        app:drawableStartCompat="@drawable/ic_technology" />
+
+</LinearLayout>

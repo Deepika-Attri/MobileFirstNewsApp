@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_8sdp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/_8sdp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/newsIV"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/titleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:maxLines="2"
+        android:text="@string/title"
+        android:ellipsize="end"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_8sdp">
+
+        <TextView
+            android:id="@+id/channelNameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/comfortaa_semibold"
+            android:maxLines="1"
+            android:text="@string/channel_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11sdp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="@dimen/_2sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:layout_centerVertical="true"
+            android:layout_marginHorizontal="@dimen/_8sdp"
+            android:layout_toEndOf="@id/channelNameTV"
+            android:background="@color/light_grey" />
+
+        <TextView
+            android:id="@+id/dateTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/view"
+            android:fontFamily="@font/comfortaa_semibold"
+            android:maxLines="1"
+            android:text="@string/date"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_11sdp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@color/light_grey" />
+
+</LinearLayout>

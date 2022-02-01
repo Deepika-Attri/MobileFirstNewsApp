@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MobileFirstNewsApp</string>
+
+    <string name="internet_connection_error">Internet Connection Error!</string>
+    <string name="ok">OK</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="cancel">Cancel</string>
+    <string name="title">Title</string>
+    <string name="channel_name">Channel Name</string>
+    <string name="date">Date</string>
+
+</resources>
